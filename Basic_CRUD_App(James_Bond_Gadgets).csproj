@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Basic_CRUD_App_James_Bond_Gadgets_</RootNamespace>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="JamesBondGadgets\.git\config" />
+    <None Include="JamesBondGadgets\.git\description" />
+    <None Include="JamesBondGadgets\.git\HEAD" />
+    <None Include="JamesBondGadgets\.git\hooks\applypatch-msg.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\commit-msg.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\post-update.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\pre-applypatch.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\pre-commit.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\pre-merge-commit.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\pre-push.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\pre-rebase.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\pre-receive.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="JamesBondGadgets\.git\hooks\update.sample" />
+    <None Include="JamesBondGadgets\.git\index" />
+    <None Include="JamesBondGadgets\.git\info\exclude" />
+    <None Include="JamesBondGadgets\.git\logs\HEAD" />
+    <None Include="JamesBondGadgets\.git\logs\refs\heads\master" />
+    <None Include="JamesBondGadgets\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="JamesBondGadgets\.git\objects\08\dde6dce304dd3a5ce6219008af919fd8cecdd6" />
+    <None Include="JamesBondGadgets\.git\objects\21\abb6972593de5be18fc1bc9aab649862bbb332" />
+    <None Include="JamesBondGadgets\.git\objects\35\203c94967335d81ee051063bb2724c3a4353b8" />
+    <None Include="JamesBondGadgets\.git\objects\39\1183da10b36484f1540fec7bc7dc23a794b1a4" />
+    <None Include="JamesBondGadgets\.git\objects\3e\7cdae5dc10865d33394bceb48d4db6c30e9eb1" />
+    <None Include="JamesBondGadgets\.git\objects\63\68cc3c74be1759a0d0bc0e936df262c8db0e6b" />
+    <None Include="JamesBondGadgets\.git\objects\74\bad7357d67e4dfdd3de818ff3de8950876d6b4" />
+    <None Include="JamesBondGadgets\.git\objects\ed\aa46e95af3d698325e6e9730d0752f3057cec2" />
+    <None Include="JamesBondGadgets\.git\packed-refs" />
+    <None Include="JamesBondGadgets\.git\refs\heads\master" />
+    <None Include="JamesBondGadgets\.git\refs\remotes\origin\HEAD" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="JamesBondGadgets\.git\objects\info\" />
+    <Folder Include="JamesBondGadgets\.git\objects\pack\" />
+    <Folder Include="JamesBondGadgets\.git\refs\tags\" />
+  </ItemGroup>
+
+</Project>
